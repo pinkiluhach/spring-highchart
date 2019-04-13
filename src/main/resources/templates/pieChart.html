@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <title>PIE</title>
     <script src="https://code.highcharts.com/highcharts.js"></script>
-
+   
 </head>
 <body>
 <div id="container" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>
 <script>
-    CanvasJS.chart('container', {
+    Highcharts.chart('container', {
         chart: {
             plotBackgroundColor: null,
             plotBorderWidth: null,
@@ -40,7 +40,7 @@
             name: 'Ratio',
             type: 'pie',
             colorByPoint: true,
-            data: [ ['Chrome',[[${chrome}]] ], ['Internet Explorer',[[${internetexplorer}]]],['Safari',[[${safari}]]],['firefox',[[${firefox}]]],['Other',[[${other}]]] ]
+            data: [ ['Chrome',[[${chrome}]] ], ['Internet Explorer',[[${internetexplorer}]]],['Safari',[[${safari}]]],['Firefox',[[${firefox}]]],['Other',[[${other}]]] ]
         }]
     });
 </script>

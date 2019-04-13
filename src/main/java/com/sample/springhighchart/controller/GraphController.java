@@ -27,7 +27,7 @@ public class GraphController {
     }
 
     @RequestMapping("/displayGame")
-    public String test_Game(){
+    public String sampleGame(){
         LOGGER.info("Redirect page to sample game page");
         return "graphics-sample-game";
     }
